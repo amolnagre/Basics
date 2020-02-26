@@ -1,0 +1,30 @@
+package Rough;
+
+public class Test // public is accessible anywhere in all java classes
+{
+/*
+ * when we discuss about access modifiers there are mostly 2 types are
+ * 1---> Class Level Access Modifier
+ * 2---> Class Member Level Access Modifier
+ * 
+ * 1---> Class level Access Modifier--> there again 2 types
+// * 		 i--> public access modifier-- it is accessible anywhere in java world
+ * 		ii--> default access modifier-- it is accessible only in it's package only.
+ * 
+ * 2---> Class Member Level Access Modifier--> Here are 4 types.
+ * 	  i>   public-->  it is accessible anywhere in java world.
+ * 
+ * 	 ii>  private-->  it is accessible only in it's class only.
+ *  
+ * 	iii>protected-->  it is accessible in it's package and 
+ * 					  also accessible outside the package but through using "inheritance" only
+ * 	 iv>  default-->  it is accessible only in it's package only.
+ * 
+ * 
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

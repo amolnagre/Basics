@@ -1,0 +1,18 @@
+
+public class LearningMethods {
+
+	public static void main(String[] args) {
+		// Here 'i' is Global variable of class Home (in same Package) we can access it by creating of object of Home class.
+		Home h=new Home();// (h is reference variable of Home object)h--> object i=10;
+		h.i++;// object1 --> i=11;
+		
+		Home h1=new Home();// h1 (reference variable) --> object2 -->10;
+		h1.i++;// i=11;
+		
+		Home h2=new Home();// h1 (reference variable) --> object3 -->10;
+		
+		System.out.println(h2.i);// 10; we are not increasing the value of i only print it so the value of i =10 as it is.
+		
+	}
+
+}

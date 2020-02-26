@@ -1,0 +1,18 @@
+
+public class LearningMethods {
+
+	public static void main(String[] args) {
+		
+		Home h=new Home();
+		h.i++;
+		
+		Home h1=new Home();
+		h1.i++;
+		
+		Home h2=new Home();
+		h2.i++;
+		System.out.println(h2.i);
+		
+	}
+
+}

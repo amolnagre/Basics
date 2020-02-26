@@ -1,0 +1,18 @@
+
+public class IfElseStatements {
+
+	public static void main(String[] args) {
+		// If , if else and if elseif else Statements
+		
+		int num=(int)(Math.random()*20);
+		
+		if(num>=10)
+			System.out.println(num+"Number is Greater or equal to 10");
+		else if(num<10 && num>5)
+			System.out.println(num+"Number is Between 5 and 10");
+		else
+			System.out.println(num+"Number is Less than 5");
+
+	}
+
+}

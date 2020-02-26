@@ -1,0 +1,43 @@
+
+public class Calculator {
+	
+	/*
+	 * Medhods==> add,sub,mul.div
+	 * return type==> int
+	 * Parameters type==>omt tu[es
+	 * 
+	 */
+	
+	
+	public int add(int a, int b)
+	{
+		int c=a+b;
+		return c;
+	}
+
+	
+	public int sub(int a, int b)
+	{
+		int c=a-b;
+		return c;
+	}
+	public int mul(int a, int b)
+	{
+		int c=a*b;
+		return c;
+	}
+	public int div(int a, int b)
+	{
+		int c=a/b;
+		return c;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Calculator cal=new Calculator();
+		int ad=cal.add(10,20);
+		System.out.println(" Addition is: "+ad);
+	}
+
+}

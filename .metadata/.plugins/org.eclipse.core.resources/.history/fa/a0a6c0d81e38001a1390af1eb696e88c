@@ -1,0 +1,32 @@
+
+public class Home {
+
+	// instance / local /  class Variables
+	/*
+	 * instance variables ---> also known as Global variables --> Declare in class body
+	 * local variable --> declared inside method body
+	 * 
+	 * 
+	 */
+	int i=10;// instance variable or Global variable access anywhere in class or method
+	
+	public void go()
+	{
+		i=345;// global variable access anywher we can change value or access anywhere
+	int j=234;// local variable not accessible outside the method	
+		
+	}
+	public void show()
+	{
+	i=5678;// we can change value of Gobal ro instance variable anywhere	
+	
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

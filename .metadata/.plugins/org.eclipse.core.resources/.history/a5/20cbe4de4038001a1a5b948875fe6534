@@ -1,0 +1,16 @@
+
+public class WhileLoops {
+
+	public static void main(String[] args) {
+		//While Loops
+		
+		
+		int i=1;
+		while(i<=10)
+		{
+			System.out.println(i);
+		}
+
+	}
+
+}

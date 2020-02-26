@@ -1,0 +1,25 @@
+
+public class MethodCalling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void go()
+	{
+	System.out.println("Inside Go Method ");	
+	}
+	
+	public void go1()
+	{
+	System.out.println("Inside Go Method ");	
+	}
+	
+	public void go2()
+	{
+	System.out.println("Inside Go Method ");	
+	}
+	
+	
+}

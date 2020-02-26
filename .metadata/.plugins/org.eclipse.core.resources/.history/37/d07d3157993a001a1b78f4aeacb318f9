@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class NaturalNumWhile {
+
+	public static void main(String[] args) {
+		// Print Natural Numbers from 1 to 10
+		
+		//Scanner sc=new Scanner(System.in);
+		//int num=sc.nextInt();
+		
+		int num=10,sum=0,i=0;
+		
+		while(i<=num)
+		{
+			sum=sum+num;
+			i++;
+			System.out.println(num);
+			
+		}
+		System.out.println("Natural Number is: "+num);
+
+	}
+
+}

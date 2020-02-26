@@ -1,0 +1,43 @@
+
+public class LearningMehtods {
+
+	public void display()
+	{
+		System.out.println("Inside the Display Methods: ");
+	}
+	
+	public String show(String s)
+	{
+		System.out.println("Returning String s");
+		return s;
+	}
+	
+	public int getSum(int a,int b)
+	{
+		int c=a+b;
+		return c;
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		LearningMehtods l=new LearningMehtods();
+		l.display();
+		String str=l.show("This is Java Tutorials ");
+		System.out.println(str);
+		int add=l.getSum(10,20);
+		System.out.println(add);
+		
+		// Assignment for this method
+		
+		/*
+		 * Medhods==> add,sub,mul.div
+		 * return type==> int
+		 * Parameters type==>int types
+		 */
+		
+	}
+
+}

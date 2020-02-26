@@ -1,0 +1,25 @@
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Entry criteria:  Loop Condition must be true
+		//Exit Criteria:  Loop condition si false
+		//Loops are not Statements as if else
+		
+		//printing No's 1 to 10 on console
+		int i=1;
+		while(i<=10)
+			{System.out.println(i);
+		i++;
+		}
+		/*int i=11;
+		 * while(i<=10)
+		 *
+		 * 
+		 * 
+		 */
+	}
+
+}

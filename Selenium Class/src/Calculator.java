@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+public class Calculator {
+	
+	/*
+	 * Medhods==> add,sub,mul.div
+	 * return type==> int
+	 * Parameters type==>omt tu[es
+	 * 
+	 */
+	
+	
+	public int add(int a, int b)
+	{
+		int c=a+b;
+		return c;
+	}
+
+	
+	public int sub(int a, int b)
+	{
+		int c=a-b;
+		return c;
+	}
+	public int mul(int a, int b)
+	{
+		int c=a*b;
+		return c;
+	}
+	public int div(int a, int b)
+	{
+		int c=a/b;
+		return c;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Calculator cal=new Calculator();
+		//Scanner sc= new Scanner(System.in);
+		//System.out.println("Enter 1st Number: ");
+		//System.out.println("Enter 1st Number: ");
+		int ad=cal.add(10,20);
+		System.out.println(" Addition is: "+ad);
+		System.out.println("---------------------------");
+		
+		int sb=cal.sub(10,20);
+		System.out.println("Substraction is: "+sb);
+		System.out.println("---------------------------");
+		
+		int ml=cal.mul(10, 20);
+		System.out.println("Multiplication is: "+ml);
+		System.out.println("---------------------------");
+		
+		int dv=cal.div(100,10);
+		System.out.println("Division is: "+dv);
+		
+		
+		
+		
+	}
+
+}

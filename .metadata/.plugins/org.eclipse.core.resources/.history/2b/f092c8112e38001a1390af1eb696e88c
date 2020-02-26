@@ -1,0 +1,17 @@
+
+public class RandomNumbers {
+
+
+	public static void main(String[] args) {
+		//
+		
+		//type cast--> 
+		//conversion-->
+		int num=(int)(Math.random()*5);// double is type casting with integer
+		System.out.println(num);
+
+	}
+
+}
+
+

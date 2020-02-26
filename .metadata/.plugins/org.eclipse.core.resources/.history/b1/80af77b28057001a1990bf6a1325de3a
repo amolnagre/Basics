@@ -1,0 +1,21 @@
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Formatter;
+
+public class MyPractice {
+public static void main(String[] args) {
+	/* PRINTIG CURRENT DATE
+	Date date = new Date();
+    String DATE_FORMAT = "MM/dd/yyyy";
+    SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT);
+    System.out.println("Today is " + sdf.format(date));
+ */   
+	/* DISPLAY CURRENT DATE IN 12 HRS FORMAT
+	  Formatter fmt = new Formatter();
+	    Calendar cal = Calendar.getInstance();
+
+	    fmt.format("%tr", cal);
+	    System.out.println(fmt);*/
+}
+}
